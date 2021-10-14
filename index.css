@@ -1,0 +1,93 @@
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.sky {
+  background-color: #9ecae1;
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.road {
+  background-color: #202020;
+  height: 40%;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.road #whiteTop {
+  position: absolute;
+  background-color: white;
+  height: 3%;
+  width: 100%;
+  bottom: 240px;
+  left: 0px;
+}
+
+.road #whiteBottom {
+  position: absolute;
+  background-color: white;
+  height: 3%;
+  width: 100%;
+  bottom: 20px;
+  left: 0px;
+}
+
+.road #yellow-dicider, .road #yellow1, .road #yellow2, .road #yellow3, .road #yellow4, .road #yellow5, .road #yellow6, .road #yellow7 {
+  position: absolute;
+  height: 4%;
+  width: 10%;
+  bottom: 125px;
+}
+
+.road #yellow-divider {
+  overflow: hidden !important;
+}
+
+.road #yellow1 {
+  background-color: #fec44f;
+  left: 20px;
+}
+
+.road #yellow2 {
+  background-color: #fec44f;
+  left: 354px;
+}
+
+.road #yellow3 {
+  background-color: #fec44f;
+  left: 688px;
+}
+
+.road #yellow4 {
+  background-color: #fec44f;
+  left: 1022px;
+}
+
+.road #yellow5 {
+  background-color: #fec44f;
+  left: 1356px;
+}
+
+.road #yellow6 {
+  background-color: #fec44f;
+  left: 1690px;
+}
+
+.road #yellow7 {
+  background-color: #fec44f;
+  left: 2024px;
+}
+/*# sourceMappingURL=index.css.map */

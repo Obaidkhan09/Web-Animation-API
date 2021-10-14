@@ -1,0 +1,85 @@
+$sky-color : #9ecae1;
+$road-color : #202020;
+$yellow-color: #fec44f;
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+}
+.sky{
+    background-color: $sky-color;
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.road{
+    background-color: $road-color;
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    #whiteTop{
+        position: absolute;
+        background-color: white;
+        height: 3%;
+        width: 100%;
+        bottom: 240px;
+        left: 0px;
+    }
+    #whiteBottom{
+        position: absolute;
+        background-color: white;
+        height: 3%;
+        width: 100%;
+        bottom: 20px;
+        left: 0px;
+    }
+
+    #yellow-dicider, #yellow1, #yellow2, #yellow3, #yellow4, #yellow5, #yellow6, #yellow7{
+        position: absolute;
+        height: 4%;
+        width: 10%;
+        bottom: 125px;
+    }
+    #yellow-divider{
+        overflow: hidden !important;
+    }
+    #yellow1{
+        background-color: $yellow-color;
+        left: 20px;
+    }
+    #yellow2{
+        background-color: $yellow-color;
+        left: 354px;
+    }
+    #yellow3{
+        background-color: $yellow-color;
+        left: 688px;
+    }
+    #yellow4{
+        background-color: $yellow-color;
+        left: 1022px;
+    }
+    #yellow5{
+        background-color: $yellow-color;
+        left: 1356px;
+    }
+    #yellow6{
+        background-color: $yellow-color;
+        left: 1690px;
+    }
+    #yellow7{
+        background-color: $yellow-color;
+        left: 2024px;
+    }
+
+    
+}
