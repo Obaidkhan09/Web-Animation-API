@@ -1,3 +1,7 @@
+/* USED SASS check index.scss file
+  if you are new to Sass, you need vs code extension,
+  that will change Sass to css
+  Live Sass Compiler*/
 body {
   width: 100%;
   height: 100%;
@@ -18,8 +22,65 @@ body {
   left: 0px;
 }
 
+.sky .sun-moon {
+  position: absolute;
+  top: 10px;
+  left: 40%;
+  height: 200px;
+}
+
+.sky .cloud-group-1 {
+  position: absolute;
+}
+
+.sky .cloud-group-1 .cloud-1 {
+  position: absolute;
+  top: 15px;
+  left: 100px;
+  width: 130px;
+}
+
+.sky .cloud-group-1 .cloud-2 {
+  position: absolute;
+  top: 100px;
+  left: 400px;
+  width: 150px;
+}
+
+.sky .cloud-group-1 .cloud-3 {
+  position: absolute;
+  top: 15px;
+  left: 750px;
+  width: 130px;
+}
+
+.sky .cloud-group-2 {
+  position: absolute;
+}
+
+.sky .cloud-group-2 .cloud-1 {
+  position: absolute;
+  top: 100px;
+  left: 1100px;
+  width: 150px;
+}
+
+.sky .cloud-group-2 .cloud-2 {
+  position: absolute;
+  top: 15px;
+  left: 1350px;
+  width: 130px;
+}
+
+.sky .cloud-group-2 .cloud-3 {
+  position: absolute;
+  top: 100px;
+  left: 1700px;
+  width: 150px;
+}
+
 .road {
-  background-color: #202020;
+  background-color: #383838;
   height: 40%;
   width: 100%;
   position: absolute;
@@ -89,5 +150,11 @@ body {
 .road #yellow7 {
   background-color: #fec44f;
   left: 2024px;
+}
+
+.road img {
+  position: absolute;
+  bottom: -40px;
+  width: 450px;
 }
 /*# sourceMappingURL=index.css.map */

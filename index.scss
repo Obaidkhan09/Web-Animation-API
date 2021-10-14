@@ -1,6 +1,11 @@
 $sky-color : #9ecae1;
-$road-color : #202020;
+$road-color : #383838;
 $yellow-color: #fec44f;
+
+/* USED SASS check index.scss file
+  if you are new to Sass, you need vs code extension,
+  that will change Sass to css
+  Live Sass Compiler*/
 
 body{
     width: 100%;
@@ -11,6 +16,9 @@ body{
     height: 100%;
     width: 100%;
 }
+
+// Working with SKY portion
+
 .sky{
     background-color: $sky-color;
     width: 100%;
@@ -18,7 +26,58 @@ body{
     position: absolute;
     top: 0px;
     left: 0px;
+    .sun-moon{
+        position: absolute;
+        top: 10px;
+        left: 40%;
+        height: 200px;
+    }
+    .cloud-group-1{
+        position: absolute;
+        .cloud-1{
+            position: absolute;
+            top: 15px;
+            left: 100px;
+            width: 130px;
+        }
+        .cloud-2{
+            position: absolute;
+            top: 100px;
+            left: 400px;
+            width: 150px;
+        }
+        .cloud-3{
+            position: absolute;
+            top: 15px;
+            left: 750px;
+            width: 130px;
+        }
+    }
+    .cloud-group-2{
+        position: absolute;
+        .cloud-1{
+            position: absolute;
+            top: 100px;
+            left: 1100px;
+            width: 150px;
+        }
+        .cloud-2{
+            position: absolute;
+            top: 15px;
+            left: 1350px;
+            width: 130px;
+        }
+        .cloud-3{
+            position: absolute;
+            top: 100px;
+            left: 1700px;
+            width: 150px;
+        }
+    }
 }
+
+// Working with ROAD portion
+
 .road{
     background-color: $road-color;
     height: 40%;
@@ -80,6 +139,10 @@ body{
         background-color: $yellow-color;
         left: 2024px;
     }
-
+    img{
+        position: absolute;
+        bottom: -40px;
+        width: 450px;
+    }
     
 }
